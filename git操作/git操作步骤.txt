@@ -1,0 +1,71 @@
+以下是git基本操作
+//配置
+git config --global user.name
+git config --global user.email
+
+//进入文件夹创建git文件
+1.git init
+
+/*远程下载*/
+1.git clone *****
+1.1 git clone 地址 文件夹 
+
+//将文件加入暂存区
+1.git add .
+//将暂存区所有修改添加到分支中,为回改做准备
+2.git commit -m "XX"
+
+**查看状态 ：git status
+**查看分支：git log
+**项目回滚: git checkout 123232
+
+
+/*标签的用法，通常是大版本的介绍*/
+//标签创建
+1.git tag -a ** -m "***"
+//标签获取
+1.git show 标签名
+//标签的回滚
+git checkout 标签名
+//显示所有标签: git tag
+
+/*分支的操作*/
+git branch ***
+//从分支回滚主干
+git checkout master
+//创建并切换至分支
+git checkout -b 分支
+//合并分支
+git merge 分支
+/*创建文件*/
+//新建文件：touch 名称.扩展名
+//进入目录：./目录
+/*添加远程仓库*/
+//上传远程仓库： git remote add 名称 地址
+//列出所有当前本地连接的远程仓库：git remote
+//远程仓库详细信息： git remote -v
+//上传代码：git push -u 远程名 分支名 
+1.以上方法要是传不了 就使用git push -f 远程名 分支名 
+/*多人合作*/
+//远程拉取代码
+git pull
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

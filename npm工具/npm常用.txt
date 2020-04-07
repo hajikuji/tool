@@ -1,0 +1,16 @@
+前置工作：windows进 win + r----cmd
+查看版本号: npm -v
+查看node: node -v
+更新: npm install npm@****-g(其中*为确切版本号 也可以输入lastest)
+-----------------------------------------------------------
+操作
+初始化: npm init -y
+添加包: npm i 文件名
+安装默认json配置文件: npm i 
+删除包: npm uninstall 文件名
+更新包: npm update 文件名
+安装旧版本: npm i 文件名@版本号
+运行json中的scripts中的test : npm run test
+安装包至开发环境: npm i 包名 --save-dev
+在特定文件路径下打开npm: shift + 右键==》命令行打开
+安装出错 npm config set strict-ssl false

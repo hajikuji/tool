@@ -1,0 +1,6 @@
+icomoon.io
+www.iconfont.cn
+fontello.com
+fortawesome.github.io/Font-Awesome
+glyphicons.com
+icons8.com
